@@ -1,0 +1,15 @@
+# Participant data and files made from it (e.g. downloaded z-scores): never uploaded
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# ...except these, which are safe to share
+!examples/fake_participants_cat12.csv
+!examples/fake_participants_cat12_groups.csv
+!examples/fake_participants_cat12_groups_raw_with_TIV.csv
+!regions_neuromorphometrics_cat12_7.csv
+
+# Mac and Python clutter
+.DS_Store
+__pycache__/
