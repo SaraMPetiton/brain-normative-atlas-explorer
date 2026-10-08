@@ -22,6 +22,7 @@ Regional gray matter and CSF volumes were extracted with CAT12 using the Neuromo
   <br>
   <em>Age distribution of the 53,856 healthy participants, by sex.</em>
 </p>
+
 *Age distribution of the 53,856 healthy participants, by sex.*
 
 ## Normative model
