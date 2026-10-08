@@ -23,8 +23,6 @@ Regional gray matter and CSF volumes were extracted with CAT12 using the Neuromo
   <em>Age distribution of the 53,856 healthy participants, by sex.</em>
 </p>
 
-*Age distribution of the 53,856 healthy participants, by sex.*
-
 ## Normative model
 
 The charts are drawn from `normative_model.js`, which contains, for each region (gray matter and CSF) and each sex, the normative mean curve over the training age range and the standard deviation. They are computed as in the analysis code: mean = `model.predict()` for females and males across ages, band = mean ± `model.stds_` for that region.
