@@ -17,7 +17,11 @@ The age distribution is bimodal (a smaller peak in the early twenties, mostly Op
 
 Regional gray matter and CSF volumes were extracted with CAT12 using the Neuromorphometrics atlas (CAT12 12.7 for UK Biobank and OpenNeuro, 12.6 for HCP) and scaled to TIV = 1500 ml (see "Head size" below). The model (`NormativeBLR`) fits one Bayesian ridge regression per region, with age (cubic B-splines) and sex as covariates and a sinh-arcsinh warping of the volumes; the SD of each chart is the SD of the residuals in volume units.
 
-<img src="docs/age_distribution_by_sex_healthy_brains.png" alt="Age distribution of the healthy training participants, by sex" width="500">
+<p align="center">
+  <img src="docs/age_distribution_by_sex_healthy_brains.png" alt="Age distribution of the healthy training participants, by sex" width="500">
+  <br>
+  <em>Age distribution of the 53,856 healthy participants, by sex.</em>
+</p>
 *Age distribution of the 53,856 healthy participants, by sex.*
 
 ## Normative model
