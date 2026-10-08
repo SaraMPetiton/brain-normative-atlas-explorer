@@ -11,7 +11,9 @@ where I worked under the direction of Edouard Duchesnay and the co-supervision o
 
 ## Data the normative model was trained on
 
-The normative model was trained on 53,856 healthy participants aggregated from four sources:
+The normative model was trained on 53,856 healthy participants aggregated from four sources: OpenBHB
+(Dufumier et al., 2022), UK Biobank (Miller et al., 2016), OpenNeuro (Markiewicz et al., 2021) and the
+Human Connectome Project (Van Essen et al., 2013):
 
 |                 | Total       | OpenBHB     | UK Biobank | OpenNeuro   | HCP        |
 |-----------------|-------------|-------------|------------|-------------|------------|
@@ -146,9 +148,11 @@ Installed copies use the latest files whenever they are online (for example afte
 
 ### References
 
-- Fraza, C. J., Dinga, R., Beckmann, C. F., & Marquand, A. F. (2021). Warped Bayesian linear
-  regression for normative modelling of big data. *NeuroImage*, 245, 118715.
-  https://doi.org/10.1016/j.neuroimage.2021.118715
+- Dufumier B, Grigis A, Victor J, Ambroise C, Frouin V, Duchesnay E. OpenBHB: a large-scale multi-site brain MRI data-set for age prediction and debiasing. *NeuroImage*. 2022;263:119637. [doi:10.1016/j.neuroimage.2022.119637](https://doi.org/10.1016/j.neuroimage.2022.119637)
+- Miller KL, Alfaro-Almagro F, Bangerter NK, et al. Multimodal population brain imaging in the UK Biobank prospective epidemiological study. *Nat Neurosci*. 2016;19(11):1523-1536. [doi:10.1038/nn.4393](https://doi.org/10.1038/nn.4393)
+- Van Essen DC, Smith SM, Barch DM, Behrens TEJ, Yacoub E, Ugurbil K. The WU-Minn Human Connectome Project: an overview. *NeuroImage*. 2013;80:62-79. [doi:10.1016/j.neuroimage.2013.05.041](https://doi.org/10.1016/j.neuroimage.2013.05.041)
+- Markiewicz CJ, Gorgolewski KJ, Feingold F, et al. The OpenNeuro resource for sharing of neuroscience data. *eLife*. 2021;10:e71774. [doi:10.7554/eLife.71774](https://doi.org/10.7554/eLife.71774)
+- Fraza CJ, Dinga R, Beckmann CF, Marquand AF. Warped Bayesian linear regression for normative modelling of big data. *NeuroImage*. 2021;245:118715. [doi:10.1016/j.neuroimage.2021.118715](https://doi.org/10.1016/j.neuroimage.2021.118715)
 
 ### Atlas
 
