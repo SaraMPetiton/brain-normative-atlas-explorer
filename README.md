@@ -119,11 +119,11 @@ Installing the app, and keeping an offline copy of the installed app, need it to
 Open the address https://sarampetiton.github.io/brain-normative-atlas-explorer/ in Chrome or Edge and choose "Install app" (icon in the address bar, or the browser menu). On iPhone, open it in Safari and use Share > Add to Home Screen.
 
 <p align="center">
-  <img src="docs/YOUR_FIRST_IMAGE.png" alt="The app open in Chrome, with the install window" width="1000">
+  <img src="docs/how_to_app_1.png" alt="The app open in Chrome, with the install window" width="1000">
 </p>
 
 <p align="center">
-  <img src="docs/YOUR_SECOND_IMAGE.png" alt="The install icon in the address bar opens the install window" width="500">
+  <img src="docs/how_to_app_2.png" alt="The install icon in the address bar opens the install window" width="500">
 </p>
 
 Installed copies use the latest files whenever they are online (for example after you replace `normative_model.js`), and their saved copy when offline.
