@@ -1,7 +1,7 @@
 # Neuromorphometrics brain normative atlas explorer
 
 Installable web app: click a region of the Neuromorphometrics atlas and its name appears with the corresponding normative charts (gray matter or CSF volume by age, for females and males; a switch above the charts selects the tissue). You can also open a CSV file of your own participants to see where they fall on the charts, provided the file contains regions from the Neuromorphometrics atlas using CAT 12.7. If volume values are scaled by TIV, they should be scaled such that the TIV equals 1500 ml, otherwise, a "TIV" column should be included, with each participant's tiv value.
-Regions without a normative chart show a smiley instead :smile: 
+Regions without a normative chart show a smiley instead :smiley: :brain: (who knew markdown enabled smileys??).
 
 ## Data the normative model was trained on
 
@@ -17,7 +17,7 @@ The age distribution is bimodal (a smaller peak in the early twenties, mostly Op
 
 Regional gray matter and CSF volumes were extracted with CAT12 using the Neuromorphometrics atlas (CAT12 12.7 for UK Biobank and OpenNeuro, 12.6 for HCP) and scaled to TIV = 1500 ml (see "Head size" below). The model (`NormativeBLR`) fits one Bayesian ridge regression per region, with age (cubic B-splines) and sex as covariates and a sinh-arcsinh warping of the volumes; the SD of each chart is the SD of the residuals in volume units.
 
-![Age distribution of the healthy training participants, by sex](docs/age_distribution_by_sex.png)
+![Age distribution of the healthy training participants, by sex](docs/age_distribution_by_sex_healthy_brains.png)
 *Age distribution of the 53,856 healthy participants, by sex.*
 
 ## Normative model
@@ -105,7 +105,7 @@ Recommendations for sensitive data:
 Open http://localhost:8000. This works without an internet connection, and the app can be installed from there. Opening `index.html` directly (double-click) also works, without any server or internet connection.
 Installing the app, and keeping an offline copy of the installed app, need it to be served over http(s): with the local server above (`localhost`) or from GitHub Pages.
 
-## Install as an app (with the brain icon)
+## Install as an app (with the cute brain icon)
 
 Host the folder on any HTTPS static host, for example GitHub Pages:
 
